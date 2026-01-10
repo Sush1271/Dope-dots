@@ -1,0 +1,13 @@
+#waybar {
+  background-color: #ffa3c0;
+  /* height: "";       cannot decide height in css , make chnages in jsonc*/
+  font-family: monospace;
+  font-size: 14px;
+  color: #d646e3;
+}
+
+clock {
+    color: #e7668b;  /* pink */
+    font-weight: bold;
+    border: #d646e3;
+  }

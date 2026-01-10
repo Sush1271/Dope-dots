@@ -1,11 +1,32 @@
-{
-  "layer": "top",
-  "position": "top",
+[
+  { "include": "./modules.jsonc",
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "mode": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "on-scroll-threshold": 1,
+    "reload_style_on_change": true,    
 
-  "modules-center": ["clock"],
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-bottom": 0,
+    "margin-right": 0,
 
-  "clock": {
-    "format": "{:%I:%M:%S:%p}",
-    "interval": 1
+    "modules-left": [
+      "cpu",
+      "memory",
+      "temperature",
+      "disk",
+      "hyprland/workspaces"
+    ],
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [
+      "mpris",
+      "menu"
+    ]
   }
-}
+]

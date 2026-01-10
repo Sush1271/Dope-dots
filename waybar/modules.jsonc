@@ -1,0 +1,81 @@
+{
+  //Cpu
+"cpu": {
+    "interval": 10,
+    "format": "  {}%",
+    "max-length": 10
+},
+  //Memory
+"memory": {
+    "interval": 30,
+    "format": "{used:0.1f}G/{total:0.1f}G "
+},
+  //Temp
+ "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    // "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
+},
+  //Storage
+  "disk": {
+    "interval": 30,
+    "format": " {percentage_used}% ",
+    "path": "/"
+},
+
+  //Media
+"mpris": {
+	"format": "DEFAULT: {player_icon} {dynamic}",
+	"format-paused": "DEFAULT: {status_icon} <i>{dynamic}</i>",
+	"player-icons": {
+		"default": "▶",
+		"mpv": "🎵"
+	},
+	"status-icons": {
+		"paused": "⏸"
+	}
+	// ",ignored-players": ["firefox"]
+},
+
+  //Workspaces
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [], // Always show a workspace with name '3', on all outputs if it does not exists
+        "4": [], // Always show a workspace with name '4', on output 'eDP-1' if it does not exists
+        "5": [], // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+    }
+},
+
+  //Date+Time
+  "clock": {
+    "format": "{:%I:%M:%S %p}",
+    "interval": 1
+  }
+
+  //SS
+
+  //Color Picker
+
+
+
+  //Apps
+
+  //Mute
+
+  //Wifi
+
+  //Bluetooth
+
+  //Notification
+
+  //Menu
+}
