@@ -1,0 +1,11 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-center": ["clock"],
+
+  "clock": {
+    "format": "{:%I:%M:%S:%p}",
+    "interval": 1
+  }
+}
