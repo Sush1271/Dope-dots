@@ -51,7 +51,7 @@
         "7": [],
         "8": [],
         "9": [],
-        "10": [],
+        "10": []
     }
 },
 
@@ -59,12 +59,16 @@
   "clock": {
     "format": "{:%I:%M:%S %p}",
     "interval": 1
-  }
+  },
 
   //SS
 
   //Color Picker
-
+"custom/colorpicker": {
+  "format": "",
+  "tooltip": "Pick a color",
+  "on-click": "hyprpicker -a"
+}
 
 
   //Apps

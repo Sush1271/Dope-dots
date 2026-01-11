@@ -26,6 +26,7 @@
     ],
     "modules-right": [
       "mpris",
+      "custom/colorpicker",
       "menu"
     ]
   }
