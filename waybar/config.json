@@ -22,7 +22,8 @@
       "hyprland/workspaces"
     ],
     "modules-center": [
-      "clock"
+      "clock",
+      "tray"
     ],
     "modules-right": [
       "mpris",

@@ -68,17 +68,18 @@
   "format": "",
   "tooltip": "Pick a color",
   "on-click": "hyprpicker -a"
-}
+},
 
 
   //Apps
+"tray": {
+  "spacing": 8
+}
 
   //Mute
 
   //Wifi
-
-  //Bluetooth
-
+  
   //Notification
 
   //Menu
