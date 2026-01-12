@@ -62,6 +62,12 @@
   },
 
   //SS
+  // Screenshot
+"custom/screenshot": {
+  "format": "",
+  "tooltip": "Screenshot (select area)",
+  "on-click": "grim -g \"$(slurp)\" - | wl-copy"
+},
 
   //Color Picker
 "custom/colorpicker": {

@@ -28,7 +28,8 @@
     "modules-right": [
       "mpris",
       "custom/colorpicker",
-      "menu"
+      "menu",
+      "custom/screenshot"
     ]
   }
 ]
