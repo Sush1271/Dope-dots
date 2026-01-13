@@ -80,13 +80,21 @@
   //Apps
 "tray": {
   "spacing": 8
-}
+},
 
   //Mute
 
   //Wifi
   
   //Notification
+// Notifications
+"custom/notifications": {
+  "exec": "echo 󰂚",
+  "interval": 0,
+  "on-click": "dunstctl history-pop",
+  "on-click-right": "dunstctl close-all",
+  "tooltip": false
+}
 
   //Menu
 }
