@@ -1,5 +1,5 @@
 {
-  //Cpu
+  //Cpu hello
 "cpu": {
     "interval": 10,
     "format": "  {}%",
