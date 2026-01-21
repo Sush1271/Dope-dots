@@ -1,9 +1,8 @@
 #waybar {
-  background-color: #ffa3c0;
-  /* height: "";       cannot decide height in css , make chnages in jsonc*/
+  background-color: #01b5b2;
   font-family: monospace;
   font-size: 14px;
-  color: #d646e3;
+  color: #F5E8E1;
 }
 
 clock {
@@ -11,3 +10,22 @@ clock {
     font-weight: bold;
     border: #d646e3;
   }
+
+#cpu{
+    padding: 10px;
+}
+#memory{
+    padding: 10px;  
+}
+#temperature{
+    padding: 10px;
+}
+#mpris{
+    padding: 10px
+}
+#custom-colorpicker{
+    padding: 10px;
+}
+#custom-screenshot{
+    padding: 10px;
+}

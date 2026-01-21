@@ -13,13 +13,12 @@
     "margin-left": 0,
     "margin-bottom": 0,
     "margin-right": 0,
-
     "modules-left": [
+      "hyprland/workspaces",
       "cpu",
       "memory",
       "temperature",
-      "disk",
-      "hyprland/workspaces"
+      "disk"      
     ],
     "modules-center": [
       "clock",
@@ -27,9 +26,10 @@
     ],
     "modules-right": [
       "mpris",
-      "custom/colorpicker",
       "menu",
-      "custom/screenshot"
+      "custom/screenshot",
+      "custom/colorpicker"
+
     ]
   }
 ]
