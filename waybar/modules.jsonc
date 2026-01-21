@@ -57,7 +57,7 @@
   //SS
   // Screenshot
 "custom/screenshot": {
-  "format": "◉",
+  "format": "󰻜 ",
   "tooltip": "Screenshot (select area)",
   "on-click": "grim -g \"$(slurp)\" - | wl-copy"
 },
