@@ -1,15 +1,37 @@
 #waybar {
-  background-color: #01b5b2;
+  /* background-color: #01b5b2; */
+  background-color: transparent;
   font-family: monospace;
   font-size: 14px;
   color: #F5E8E1;
 }
 
-clock {
+.modules-left {
+    margin: 1px 0px 1px 0px;
+}
+.modules-center {
+    margin: 1px 0px 1px 0px;
+}
+.modules-right {
+    margin: 1px 10px 1px 0px;
+}
+.module {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#clock {
     color: #e7668b;  /* pink */
     font-weight: bold;
-    border: #d646e3;
+    font-size:x-large;
   }
+#custom-cava {
+    color: #8FBC8F;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 6px;
+    font-family: "bargraph"; /* install the bargraph font from FontStruct */
+    font-size: 22px;
+}
 
 #cpu{
     padding: 10px;
@@ -21,11 +43,48 @@ clock {
     padding: 10px;
 }
 #mpris{
-    padding: 10px
+  background-color: #000000;
+    padding: 10px;
+    border-radius:12px ;
+    margin: 4px;
+    color: #e7668b;
+
 }
 #custom-colorpicker{
     padding: 10px;
 }
 #custom-screenshot{
     padding: 10px;
+}
+
+#hyprland-workspaces {
+    all: unset;
+    padding: 0px 10px;
+}
+#hyprland-workspaces  { 
+   color: alpha(#d646e3, 0.5);
+}
+#hyprland-workspaces:hover label {
+    color: alpha(#e7668b, 0.85);
+}
+#workspaces button.active label {
+    color: alpha(#b50137, 1.0);
+    border-radius: 10px;
+    border: solid black;
+}
+
+#cpu,#memory,#temperature,#disk{
+  background-color: #000000;
+  color: #e7668b;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 4px;
+}
+
+#custom-screenshot,#custom-colorpicker{
+  background-color: #000000;
+  color: #e7668b;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 4px; 
 }

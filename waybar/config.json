@@ -9,27 +9,23 @@
     "on-scroll-threshold": 1,
     "reload_style_on_change": true,    
 
-    "margin-top": 0,
-    "margin-left": 0,
-    "margin-bottom": 0,
-    "margin-right": 0,
+ 
     "modules-left": [
       "hyprland/workspaces",
+      "mpris"
+    ],
+    "modules-center": [
+      "clock"  
+    ],
+    "modules-right": [
       "cpu",
       "memory",
       "temperature",
-      "disk"      
-    ],
-    "modules-center": [
-      "clock",
-      "tray"
-    ],
-    "modules-right": [
-      "mpris",
+      "disk",            
       "menu",
       "custom/screenshot",
-      "custom/colorpicker"
-
+      "custom/colorpicker",
+      "tray"
     ]
   }
 ]
