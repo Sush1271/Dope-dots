@@ -24,6 +24,7 @@
     font-weight: bold;
     font-size:x-large;
   }
+
 #custom-cava {
     color: #8FBC8F;
     border-left: 0px;
@@ -57,20 +58,21 @@
     padding: 10px;
 }
 
-#hyprland-workspaces {
+#workspaces {
     all: unset;
     padding: 0px 10px;
 }
-#hyprland-workspaces  { 
+#workspaces button { 
    color: alpha(#d646e3, 0.5);
+   background: transparent;
+    
 }
-#hyprland-workspaces:hover label {
+#workspaces:hover {
     color: alpha(#e7668b, 0.85);
 }
-#workspaces button.active label {
-    color: alpha(#b50137, 1.0);
-    border-radius: 10px;
-    border: solid black;
+#workspaces button.active {
+    color: alpha(#ff034f, 1.0);
+    background-color: #F8A2C3;
 }
 
 #cpu,#memory,#temperature,#disk{
