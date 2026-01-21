@@ -2,7 +2,7 @@
   //Cpu
 "cpu": {
     "interval": 10,
-    "format": " {}%",
+    "format": " {usage}%",
     "max-length": 10
 },
 // Memory
@@ -54,6 +54,7 @@
     "interval": 1
   },
 
+  //SS
   // Screenshot
 "custom/screenshot": {
   "format": "󰻜 ",
