@@ -82,10 +82,9 @@
   //Notification
   "custom/swaync": {
     "format": " ",
-    "max-length": 50,
-    "all-outputs" : true,
-    "offscreen-css" : true,
-    "offscreen-css-text": "(inactive)"
+    "tooltip": "Notifications",
+    "on-click": "swaync-client -t",
+    "on-click-right": "swaync-client -C"
 }
   //Menu
 }
