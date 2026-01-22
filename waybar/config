@@ -22,10 +22,10 @@
       "memory",
       "temperature",
       "disk",            
-      "menu",
       "custom/screenshot",
       "custom/colorpicker",
-      "tray"
+      "tray",
+      "custom/swaync"
     ]
   }
 ]

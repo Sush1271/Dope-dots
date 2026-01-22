@@ -1,6 +1,7 @@
 #waybar {
   /* background-color: #01b5b2; */
   background-color: transparent;
+   /* background: rgba(255, 141, 198, 0.25); */
   font-family: monospace;
   font-size: 14px;
   color: #F5E8E1;
@@ -89,4 +90,12 @@
   border-radius: 12px;
   padding: 8px;
   margin: 4px; 
+}
+
+#custom-swaync {
+  background-color: #000000;
+  color: #69E8FF;
+  border-radius: 12px;
+  padding: 6px 16px;
+  margin: 4px;
 }
