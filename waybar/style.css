@@ -64,12 +64,13 @@
     padding: 0px 10px;
 }
 #workspaces button { 
-   color: alpha(#d646e3, 0.5);
+   color: alpha(#ff0048, 0.5);
    background: transparent;
     
 }
-#workspaces:hover {
-    color: alpha(#e7668b, 0.85);
+#workspaces button:hover {
+    color: alpha(#ffffff, 0.85);
+    background-color: #e7668b;
 }
 #workspaces button.active {
     color: alpha(#ff034f, 1.0);

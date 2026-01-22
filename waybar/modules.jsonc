@@ -11,13 +11,21 @@
   "format": "  {avail} G"
 },
   //Temp
- "temperature": {
-    // "thermal-zone": 2,
-    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    // "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C ",
-    "format": " {temperatureC}°C"
+//  "temperature": {
+//     // "thermal-zone": 2,
+//     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+//     // "critical-threshold": 80,
+//     // "format-critical": "{temperatureC}°C ",
+//     "format": " {temperatureC}°C"
+// },
+"temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 85,
+    "format": " {temperatureC}°C",
+    "format-critical": " {temperatureC}°C "
 },
+
+
   //Storage
   "disk": {
     "interval": 30,
