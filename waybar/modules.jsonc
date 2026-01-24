@@ -33,11 +33,14 @@
     "path": "/"
 },
 
-  //Media
+// Media
 "mpris": {
   "format": "{player_icon} {title} - {artist}",
   "format-paused": "{status_icon} {title} - {artist}",
-  "max-length": 30
+  "max-length": 30,
+
+  "on-click-right": "playerctl next",
+  "on-click": "playerctl play-pause"
 },
 
   //Workspaces
