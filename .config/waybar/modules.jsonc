@@ -8,7 +8,7 @@
 // Memory
 "memory": {
   "interval": 10,
-  "format": " {avail} G"
+  "format": "  {avail} G"
 },
   //Temp
 //  "temperature": {
@@ -29,7 +29,7 @@
   //Storage
   "disk": {
     "interval": 30,
-    "format": " {percentage_used}%",
+    "format": "  {percentage_used}%",
     "path": "/"
 },
 
@@ -68,14 +68,14 @@
   //SS
   // Screenshot
 "custom/screenshot": {
-  "format": " 󰻜 ",
+  "format": "󰻜 ",
   "tooltip": "Screenshot (select area)",
   "on-click": "grim -g \"$(slurp)\" - | wl-copy"
 },
 
   //Color Picker
 "custom/colorpicker": {
-  "format": "  ",
+  "format": " ",
   "tooltip": "Pick a color",
   "on-click": "hyprpicker -a"
 },
@@ -92,7 +92,7 @@
   
   //Notification
   "custom/swaync": {
-    "format": "",
+    "format": " ",
     "tooltip": "Notifications",
     "on-click": "swaync-client -t",
     "on-click-right": "swaync-client -C"
