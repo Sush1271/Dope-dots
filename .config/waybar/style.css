@@ -35,7 +35,7 @@
     font-size: 22px;
 }
 
-#cpu{
+/* #cpu{
     padding: 10px;
 }
 #memory{
@@ -43,7 +43,7 @@
 }
 #temperature{
     padding: 10px;
-}
+} */
 #mpris{
   background-color: #000000;
     padding: 10px;
