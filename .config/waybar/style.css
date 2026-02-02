@@ -2,7 +2,7 @@
   /* background-color: #01b5b2; */
   background-color: transparent;
    /* background: rgba(255, 141, 198, 0.25); */
-  font-family: monospace;
+  font-family: "JetBrainsMono Nerd Font", monospace;
   font-size: 14px;
   color: #F5E8E1;
 }
@@ -81,7 +81,7 @@
   background-color: #000000;
   color: #e7668b;
   border-radius: 12px;
-  padding: 8px;
+  padding: 10px;
   margin: 4px;
 }
 
@@ -89,7 +89,7 @@
   background-color: #000000;
   color: #e7668b;
   border-radius: 12px;
-  padding: 8px;
+  padding: 10px;
   margin: 4px; 
 }
 
