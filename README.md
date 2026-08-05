@@ -32,7 +32,7 @@ Dope-dots is currently a work in progress. Configurations, themes, applications,
 
 ## 🐧 Environment
 
-Built around a Linux-based workflow with a focus on:
+Built around a Arch Linux-based workflow with a focus on:
 
 - Minimal configuration
 - Developer productivity
